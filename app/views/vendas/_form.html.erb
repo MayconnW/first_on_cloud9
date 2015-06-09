@@ -1,0 +1,69 @@
+<%= form_for(@venda) do |f| %>
+  <% if @venda.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@venda.errors.count, "error") %> prohibited this venda from being saved:</h2>
+
+      <ul>
+      <% @venda.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :imei %><br>
+    <%= f.text_field :imei %>
+  </div>
+  <div class="field">
+    <%= f.label :dataemissao %><br>
+    <%= f.datetime_select :dataemissao %>
+  </div>
+  <div class="field">
+    <%= f.label :cliente_id %><br>
+    <%= f.text_field :cliente_id %>
+  </div>
+  <div class="field">
+    <%= f.label :obs %><br>
+    <%= f.text_area :obs %>
+  </div>
+  <div class="field">
+    <%= f.label :data_prev_entrega %><br>
+    <%= f.datetime_select :data_prev_entrega %>
+  </div>
+  <div class="field">
+    <%= f.label :total_bruto %><br>
+    <%= f.text_field :total_bruto %>
+  </div>
+  <div class="field">
+    <%= f.label :total_liquido %><br>
+    <%= f.text_field :total_liquido %>
+  </div>
+  <div class="field">
+    <%= f.label :desconto %><br>
+    <%= f.text_field :desconto %>
+  </div>
+  <div class="field">
+    <%= f.label :acrescimo %><br>
+    <%= f.text_field :acrescimo %>
+  </div>
+  <div class="field">
+    <%= f.label :planospagamento_id %><br>
+    <%= f.text_field :planospagamento_id %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br>
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :vendedor %><br>
+    <%= f.text_field :vendedor %>
+  </div>
+  <div class="field">
+    <%= f.label :hora %><br>
+    <%= f.text_field :hora %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Venda:</strong>
+  <%= @iten.venda %>
+</p>
+
+<p>
+  <strong>Ord item:</strong>
+  <%= @iten.ord_item %>
+</p>
+
+<p>
+  <strong>Produto:</strong>
+  <%= @iten.produto %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @iten.descricao %>
+</p>
+
+<p>
+  <strong>Quantidade:</strong>
+  <%= @iten.quantidade %>
+</p>
+
+<p>
+  <strong>Valor bruto:</strong>
+  <%= @iten.valor_bruto %>
+</p>
+
+<p>
+  <strong>Valor liquido:</strong>
+  <%= @iten.valor_liquido %>
+</p>
+
+<p>
+  <strong>Desconto:</strong>
+  <%= @iten.desconto %>
+</p>
+
+<p>
+  <strong>Acrescimo:</strong>
+  <%= @iten.acrescimo %>
+</p>
+
+<%= link_to 'Edit', edit_iten_path(@iten) %> |
+<%= link_to 'Back', itens_path %>

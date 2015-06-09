@@ -1,0 +1,1 @@
+json.extract! @venda, :id, :imei, :dataemissao, :cliente_id, :obs, :data_prev_entrega, :total_bruto, :total_liquido, :desconto, :acrescimo, :planospagamento_id, :status, :vendedor, :hora, :created_at, :updated_at

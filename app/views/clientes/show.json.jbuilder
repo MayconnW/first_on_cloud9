@@ -1,0 +1,1 @@
+json.extract! @cliente, :id, :nome, :fantasia, :endereco, :numero, :bairro, :cidade, :estado, :cep, :email, :dddfone, :fone, :dddcel, :celular, :status, :datanasc, :cpfcnpj, :rgie, :alterado, :tipopessoa, :created_at, :updated_at

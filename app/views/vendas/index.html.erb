@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Vendas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Imei</th>
+      <th>Dataemissao</th>
+      <th>Cliente</th>
+      <th>Obs</th>
+      <th>Data prev entrega</th>
+      <th>Total bruto</th>
+      <th>Total liquido</th>
+      <th>Desconto</th>
+      <th>Acrescimo</th>
+      <th>Planospagamento</th>
+      <th>Status</th>
+      <th>Vendedor</th>
+      <th>Hora</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @vendas.each do |venda| %>
+      <tr>
+        <td><%= venda.imei %></td>
+        <td><%= venda.dataemissao %></td>
+        <td><%= venda.cliente %></td>
+        <td><%= venda.obs %></td>
+        <td><%= venda.data_prev_entrega %></td>
+        <td><%= venda.total_bruto %></td>
+        <td><%= venda.total_liquido %></td>
+        <td><%= venda.desconto %></td>
+        <td><%= venda.acrescimo %></td>
+        <td><%= venda.planospagamento %></td>
+        <td><%= venda.status %></td>
+        <td><%= venda.vendedor %></td>
+        <td><%= venda.hora %></td>
+        <td><%= link_to 'Show', venda %></td>
+        <td><%= link_to 'Edit', edit_venda_path(venda) %></td>
+        <td><%= link_to 'Destroy', venda, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Venda', new_venda_path %>

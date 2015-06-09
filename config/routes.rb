@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  
+  
+  
+  resources :itens
+  resources :vendas
+  get 'home/index'
+
+  resources :planospagamentos
+  resources :produtos
+  resources :clientes
+  
+  root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

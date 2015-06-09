@@ -1,0 +1,61 @@
+<%= form_for(@produto) do |f| %>
+  <% if @produto.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@produto.errors.count, "error") %> prohibited this produto from being saved:</h2>
+
+      <ul>
+      <% @produto.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :descricao %><br>
+    <%= f.text_field :descricao %>
+  </div>
+  <div class="field">
+    <%= f.label :unidade %><br>
+    <%= f.text_field :unidade %>
+  </div>
+  <div class="field">
+    <%= f.label :observacao %><br>
+    <%= f.text_area :observacao %>
+  </div>
+  <div class="field">
+    <%= f.label :preco %><br>
+    <%= f.text_field :preco %>
+  </div>
+  <div class="field">
+    <%= f.label :codbarras %><br>
+    <%= f.text_field :codbarras %>
+  </div>
+  <div class="field">
+    <%= f.label :fraciona %><br>
+    <%= f.check_box :fraciona %>
+  </div>
+  <div class="field">
+    <%= f.label :ctrlpreco %><br>
+    <%= f.check_box :ctrlpreco %>
+  </div>
+  <div class="field">
+    <%= f.label :ctrlestoque %><br>
+    <%= f.check_box :ctrlestoque %>
+  </div>
+  <div class="field">
+    <%= f.label :quantidade %><br>
+    <%= f.text_field :quantidade %>
+  </div>
+  <div class="field">
+    <%= f.label :maxdesc %><br>
+    <%= f.text_field :maxdesc %>
+  </div>
+  <div class="field">
+    <%= f.label :maxacresc %><br>
+    <%= f.text_field :maxacresc %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

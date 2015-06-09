@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  venda_id: 
+  ord_item: 1
+  produto_id: 
+  descricao: MyString
+  quantidade: 1.5
+  valor_bruto: 1.5
+  valor_liquido: 1.5
+  desconto: 1.5
+  acrescimo: 1.5
+
+two:
+  venda_id: 
+  ord_item: 1
+  produto_id: 
+  descricao: MyString
+  quantidade: 1.5
+  valor_bruto: 1.5
+  valor_liquido: 1.5
+  desconto: 1.5
+  acrescimo: 1.5
