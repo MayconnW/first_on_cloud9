@@ -6,9 +6,9 @@
         "json()": {
             "meta": {
                 "accessList": [
-                    "tab2",
                     "tab1",
-                    "tab15"
+                    "tab0",
+                    "tab2"
                 ]
             },
             "name": "pane1",
@@ -32,7 +32,7 @@
                         "terminal": {
                             "id": "devel_554",
                             "cwd": "",
-                            "width": 968,
+                            "width": 980,
                             "height": 127
                         }
                     },
@@ -84,32 +84,32 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab15",
+                    "name": "tab0",
                     "path": null,
                     "className": [
-                        "tab15",
+                        "tab0",
                         "running"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1433876787883
+                            "timestamp": 1433943042079
                         },
                         "filter": true,
-                        "title": "app/controllers/vendas_controller.rb - Running",
-                        "tooltip": "app/controllers/vendas_controller.rb - Running",
+                        "title": "[New] - Running",
+                        "tooltip": "[New] - Running",
                         "output": {
-                            "id": "output489376",
+                            "id": "output34660",
                             "width": 0,
                             "height": 0,
                             "config": {
                                 "runner": "Ruby on Rails",
-                                "command": "app/controllers/vendas_controller.rb",
+                                "command": "",
                                 "debug": true
                             },
                             "running": {
-                                "pid": 8704,
-                                "name": "output489376",
+                                "pid": 9606,
+                                "name": "output34660",
                                 "running": 2,
                                 "runner": [
                                     {
@@ -141,17 +141,17 @@
         "counters": {
             "@ace": 1,
             "@acestatus": 1,
-            "@divider": 4,
-            "@document": 8,
+            "@divider": 7,
+            "@document": 6,
             "@form": 4,
             "@immediate": 1,
-            "@menu": 5,
-            "@menuitem": 13,
+            "@menu": 7,
+            "@menuitem": 27,
             "@pane": 2,
             "@preferences": 1,
-            "@session": 7,
-            "@tab": 24,
-            "@undoManager": 8,
+            "@session": 5,
+            "@tab": 5,
+            "@undoManager": 6,
             "@welcome": 1
         }
     },
@@ -169,8 +169,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab11",
-            "tab1"
+            "tab1",
+            "tab3"
         ]
     },
     "panels": {
@@ -202,15 +202,9 @@
         "@showfs": true,
         "expanded": {
             "json()": [
+                "/",
                 "/app",
-                "/app/views",
-                "/app/assets",
-                "/db",
-                "/db/migrate",
-                "/app/assets/stylesheets",
-                "/app/assets/javascripts",
-                "/app/views/vendas",
-                "/app/assets/images"
+                "/db/migrate"
             ]
         }
     },
@@ -219,217 +213,33 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/app/views/vendas/_form.html.erb",
+            "focus": "tab1",
             "meta": {
                 "accessList": [
-                    "tab11",
-                    "tab7",
-                    "tab8",
-                    "tab9",
-                    "tab23"
+                    "tab3"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab7",
-                    "path": "/app/controllers/vendas_controller.rb",
+                    "name": "tab3",
+                    "path": "/app/views/layouts/application.html.erb",
                     "className": [
-                        "tab7"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "vendas_controller.rb",
-                        "tooltip": "/app/controllers/vendas_controller.rb",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 17,
-                                    "column": 13
-                                },
-                                "end": {
-                                    "row": 17,
-                                    "column": 13
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 50,
-                                "state": "start",
-                                "mode": "ace/mode/ruby"
-                            }
-                        },
-                        "hash": "042dbe32de24c1a8ae37e0dae7451200cf5f04a8",
-                        "meta": {
-                            "timestamp": 1433877473460
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab8",
-                    "path": "/app/models/venda.rb",
-                    "className": [
-                        "tab8"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "venda.rb",
-                        "tooltip": "/app/models/venda.rb",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 6,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 6,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 111,
-                                "mode": "ace/mode/ruby"
-                            }
-                        },
-                        "hash": "92cbd47ceb88be0d1c140bf3f82d5e73a4a849b3",
-                        "meta": {
-                            "timestamp": 1433873363408
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab9",
-                    "path": "/app/models/iten.rb",
-                    "className": [
-                        "tab9"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "iten.rb",
-                        "tooltip": "/app/models/iten.rb",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "isBackwards": true
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "1ea822ffcb404fa9963718088c26a8be021675e7",
-                        "meta": {
-                            "timestamp": 1433812111180
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab11",
-                    "path": "/app/views/vendas/_form.html.erb",
-                    "className": [
-                        "tab11",
-                        "focus"
+                        "tab3"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1433880117360
+                            "timestamp": 1433944300415
                         },
                         "filter": true,
-                        "title": "_form.html.erb",
-                        "tooltip": "/app/views/vendas/_form.html.erb",
+                        "title": "application.html.erb",
+                        "tooltip": "/app/views/layouts/application.html.erb",
                         "ace": {}
                     },
                     "editorType": "ace",
                     "active": true
-                },
-                {
-                    "type": "tab",
-                    "name": "tab23",
-                    "path": "/app/assets/stylesheets/vendas.scss",
-                    "className": [
-                        "tab23"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "vendas.scss",
-                        "tooltip": "/app/assets/stylesheets/vendas.scss",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 75,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 18,
-                                    "column": 10
-                                },
-                                "end": {
-                                    "row": 18,
-                                    "column": 10
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 113,
-                                "state": "start",
-                                "mode": "ace/mode/scss"
-                            }
-                        },
-                        "hash": "78423983d13c75fc29dc5514ac55be6f88b7bcc4",
-                        "meta": {
-                            "timestamp": 1433879979480
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -439,7 +249,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/app/assets/images/notice.png"
+            "/app/assets/stylesheets/application.css"
         ]
     }
 }
