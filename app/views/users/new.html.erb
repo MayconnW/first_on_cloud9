@@ -1,33 +1,4 @@
-<% if @user.errors.any? %>
-    <div id="error_explanation">
-        <%= t 'general.form_error' %>
-    </div>
-<% end %>
-
-<p id="notice"><%= notice %> </p>
 <h1>Cadastro</h1>
 
-<%= form_for @user do |f| %>
-    <p >
-        <%= f.label :full_name %>
-        <%= f.text_field :full_name, class:"form-control" %>
-    </p>
-    <p>
-        <%= f.label :email %>
-        <%= f.text_field :email, class:"form-control" %>
-    </p>
-    <p>
-        <%= f.label :password %>
-        <%= f.password_field :password, class:"form-control" %>
-    </p>
-    <p>
-        <%= f.label :password_confirmation %>
-        <%= f.password_field :password_confirmation, class:"form-control" %>
-    </p>
-    
-    <p>
-        <%= f.submit %>
-    </p>
-    
+<%= render 'form' %>
 
-<% end %>

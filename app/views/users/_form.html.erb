@@ -1,0 +1,74 @@
+<% if @user.errors.any? %>
+    <div id="error_explanation">
+        <%= t 'general.form_error' %>
+    </div>
+<% end %>
+
+<p id="notice"><%= notice %> </p>
+
+<%= form_for @user, :url => users_path, :html => { :multipart => true } do |f| %>
+
+    <div class="field">
+        <%= f.label :avatar %><br />
+        <%= f.file_field :avatar %>
+        <%= error_tag @user, :avatar %>
+    </div>
+    
+    <p >
+        <%= f.label :full_name %>
+        <%= f.text_field :full_name, class:"form-control" %>
+        <%= error_tag @user, :full_name %>
+    </p>
+    <p>
+        <%= f.label :email %>
+        <%= f.text_field :email, class:"form-control" %>
+        <%= error_tag @user, :email %>
+    </p>
+    <p>
+        <%= f.label :password %>
+        <%= f.password_field :password, class:"form-control" %>
+        <%= error_tag @user, :password %>
+    </p>
+    <p>
+        <%= f.label :password_confirmation %>
+        <%= f.password_field :password_confirmation, class:"form-control" %>
+        <%= error_tag @user, :password_confirmation %>
+    </p>
+    
+    <h2>Dados Adicionais</h2>
+    
+    <p >
+        <%= f.label :address_line1 %>
+        <%= f.text_field :address_line1, class:"form-control" %>
+    </p>
+    <p >
+        <%= f.label :address_line2 %>
+        <%= f.text_field :address_line2, class:"form-control" %>
+    </p>
+    <p >
+        <%= f.label :number %>
+        <%= f.text_field :number, class:"form-control" %>
+    </p>
+    <p >
+        <%= f.label :zipcode %>
+        <%= f.text_field :zipcode, class:"form-control" %>
+    </p>
+    <p >
+        <%= f.label :city %>
+        <%= f.text_field :city, class:"form-control" %>
+    </p>
+    <p >
+        <%= f.label :state %>
+        <%= f.text_field :state, class:"form-control" %>
+    </p>
+    <p >
+        <%= f.label :cellphone %>
+        <%= f.text_field :cellphone, class:"form-control" %>
+    </p>
+    
+    <p>
+        <%= f.submit %>
+    </p>
+    
+
+<% end %>

@@ -1,14 +1,15 @@
 {
     "console": {
         "@expanded": true,
-        "@height": "153",
+        "@height": 485,
         "@maximized": "false",
         "json()": {
             "meta": {
                 "accessList": [
                     "tab1",
-                    "tab0",
-                    "tab2"
+                    "tab2",
+                    "tab4",
+                    "tab0"
                 ]
             },
             "name": "pane1",
@@ -32,8 +33,8 @@
                         "terminal": {
                             "id": "devel_554",
                             "cwd": "",
-                            "width": 980,
-                            "height": 127
+                            "width": 900,
+                            "height": 459
                         }
                     },
                     "editorType": "terminal",
@@ -47,37 +48,16 @@
                         "tab2"
                     ],
                     "document": {
+                        "changed": false,
+                        "meta": {},
                         "filter": true,
                         "title": "Immediate (Javascript (browser))",
                         "tooltip": "Immediate (Javascript (browser))",
                         "immediate": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 2,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 2,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0,
                             "type": "jsbrowser",
                             "history": [],
                             "pos": 0
-                        },
-                        "hash": "bc37e9908b413249fe666f189265c03143e4d841",
-                        "meta": {},
-                        "changed": false
+                        }
                     },
                     "editorType": "immediate",
                     "active": false
@@ -87,8 +67,7 @@
                     "name": "tab0",
                     "path": null,
                     "className": [
-                        "tab0",
-                        "running"
+                        "tab0"
                     ],
                     "document": {
                         "changed": false,
@@ -96,8 +75,8 @@
                             "timestamp": 1433943042079
                         },
                         "filter": true,
-                        "title": "[New] - Running",
-                        "tooltip": "[New] - Running",
+                        "title": "[New] - Idle",
+                        "tooltip": "[New] - Idle",
                         "output": {
                             "id": "output34660",
                             "width": 0,
@@ -105,11 +84,43 @@
                             "config": {
                                 "runner": "Ruby on Rails",
                                 "command": "",
-                                "debug": true
+                                "debug": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": null,
+                    "className": [
+                        "tab4",
+                        "running"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434044017558
+                        },
+                        "filter": true,
+                        "title": "app/controllers/users_controller.rb - Running",
+                        "tooltip": "app/controllers/users_controller.rb - Running",
+                        "output": {
+                            "id": "output591080",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Ruby on Rails",
+                                "command": "app/controllers/users_controller.rb",
+                                "debug": true,
+                                "name": ""
                             },
                             "running": {
-                                "pid": 9606,
-                                "name": "output34660",
+                                "pid": 16083,
+                                "name": "output591080",
                                 "running": 2,
                                 "runner": [
                                     {
@@ -124,7 +135,7 @@
                                         "$builtin": true
                                     }
                                 ],
-                                "debug": true
+                                "debug": false
                             }
                         }
                     },
@@ -139,19 +150,21 @@
     },
     "ext": {
         "counters": {
-            "@ace": 1,
+            "@ace": 2,
             "@acestatus": 1,
             "@divider": 7,
-            "@document": 6,
+            "@document": 17,
             "@form": 4,
             "@immediate": 1,
             "@menu": 7,
             "@menuitem": 27,
             "@pane": 2,
+            "@postmessage": 1,
             "@preferences": 1,
-            "@session": 5,
-            "@tab": 5,
-            "@undoManager": 6,
+            "@preview": 1,
+            "@session": 17,
+            "@tab": 12,
+            "@undoManager": 17,
             "@welcome": 1
         }
     },
@@ -170,12 +183,12 @@
     "panecycle": {
         "json()": [
             "tab1",
-            "tab3"
+            "tab41"
         ]
     },
     "panels": {
         "@active-left": "tree",
-        "@width-left": 238,
+        "@width-left": 275,
         "commands.panel": {
             "@enabled": "true",
             "@name": "commands.panel"
@@ -204,7 +217,15 @@
             "json()": [
                 "/",
                 "/app",
-                "/db/migrate"
+                "/db/migrate",
+                "/app/views/layouts",
+                "/app/views",
+                "/config",
+                "/app/models",
+                "/db",
+                "/app/controllers",
+                "/app/helpers",
+                "/app/views/users"
             ]
         }
     },
@@ -216,6 +237,14 @@
             "focus": "tab1",
             "meta": {
                 "accessList": [
+                    "tab41",
+                    "tab7",
+                    "tab11",
+                    "tab8",
+                    "tab42",
+                    "tab9",
+                    "tab40",
+                    "tab5",
                     "tab3"
                 ]
             },
@@ -231,7 +260,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1433944300415
+                            "timestamp": 1433944300444
                         },
                         "filter": true,
                         "title": "application.html.erb",
@@ -239,7 +268,167 @@
                         "ace": {}
                     },
                     "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab9",
+                    "path": "/app/views/users/new.html.erb",
+                    "className": [
+                        "tab9"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434031994996
+                        },
+                        "filter": true,
+                        "title": "new.html.erb",
+                        "tooltip": "/app/views/users/new.html.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab40",
+                    "path": "/app/views/users/edit.html.erb",
+                    "className": [
+                        "tab40"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434032085836
+                        },
+                        "filter": true,
+                        "title": "edit.html.erb",
+                        "tooltip": "/app/views/users/edit.html.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab41",
+                    "path": "/app/controllers/users_controller.rb",
+                    "className": [
+                        "tab41"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434051035723
+                        },
+                        "filter": true,
+                        "title": "users_controller.rb",
+                        "tooltip": "/app/controllers/users_controller.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
                     "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab42",
+                    "path": "/app/views/users/_form.html.erb",
+                    "className": [
+                        "tab42"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434047054405
+                        },
+                        "filter": true,
+                        "title": "_form.html.erb",
+                        "tooltip": "/app/views/users/_form.html.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab5",
+                    "path": "/app/helpers/application_helper.rb",
+                    "className": [
+                        "tab5"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434047095512
+                        },
+                        "filter": true,
+                        "title": "application_helper.rb",
+                        "tooltip": "/app/helpers/application_helper.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "/config/routes.rb",
+                    "className": [
+                        "tab7"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434050653545
+                        },
+                        "filter": true,
+                        "title": "routes.rb",
+                        "tooltip": "/config/routes.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": "/app/views/users/index.html.erb",
+                    "className": [
+                        "tab8"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434050565878
+                        },
+                        "filter": true,
+                        "title": "index.html.erb",
+                        "tooltip": "/app/views/users/index.html.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab11",
+                    "path": "/app/models/user.rb",
+                    "className": [
+                        "tab11"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434030319496
+                        },
+                        "filter": true,
+                        "title": "user.rb",
+                        "tooltip": "/app/models/user.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -249,7 +438,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/app/assets/stylesheets/application.css"
+            "/config/routes.rb"
         ]
     }
 }

@@ -11,15 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150610002012) do
+ActiveRecord::Schema.define(version: 20150610205531) do
 
   create_table "users", force: :cascade do |t|
     t.string   "full_name"
     t.string   "email"
     t.string   "password"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
     t.string   "password_digest"
+    t.string   "address_line1"
+    t.string   "address_line2"
+    t.string   "number"
+    t.string   "zipcode"
+    t.string   "city"
+    t.string   "state"
+    t.string   "cellphone"
+    t.string   "image_file_name"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

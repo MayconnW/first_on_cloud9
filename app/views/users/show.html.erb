@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %> </p>
 
 <h2>Perfil: <%= @user.full_name %></h2>
+<%= image_tag @user.avatar.url(:medium) %>
 
 <%= link_to "Editar", edit_user_path(@user) %>
