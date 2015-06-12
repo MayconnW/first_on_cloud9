@@ -153,7 +153,7 @@
             "@ace": 2,
             "@acestatus": 1,
             "@divider": 7,
-            "@document": 63,
+            "@document": 74,
             "@form": 4,
             "@immediate": 1,
             "@menu": 7,
@@ -162,9 +162,9 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 63,
-            "@tab": 58,
-            "@undoManager": 63,
+            "@session": 74,
+            "@tab": 69,
+            "@undoManager": 74,
             "@welcome": 1
         }
     },
@@ -183,7 +183,7 @@
     "panecycle": {
         "json()": [
             "tab1",
-            "tab51"
+            "tab65"
         ]
     },
     "panels": {
@@ -211,21 +211,18 @@
         }
     },
     "projecttree": {
-        "@scrollpos": 50,
+        "@scrollpos": -10,
         "@showfs": true,
         "expanded": {
             "json()": [
                 "/",
                 "/app",
                 "/db/migrate",
-                "/app/views",
                 "/app/views/New Folder",
-                "/app/views/signup_mailer",
-                "/app/mailers",
-                "/app/views/users",
+                "/app/controllers/concerns",
+                "/config/locales",
                 "/app/models",
-                "/app/controllers",
-                "/config/locales"
+                "/app/controllers"
             ]
         }
     },
@@ -234,16 +231,16 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/app/mailers/signup_mailer.rb",
+            "focus": "/app/controllers/user_sessions_controller.rb",
             "meta": {
                 "accessList": [
-                    "tab51",
-                    "tab55",
+                    "tab65",
+                    "tab68",
+                    "tab66",
+                    "tab67",
+                    "tab64",
+                    "tab63",
                     "tab57",
-                    "tab14",
-                    "tab54",
-                    "tab15",
-                    "tab52",
                     "tab11"
                 ]
             },
@@ -251,19 +248,19 @@
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab14",
-                    "path": "/config/routes.rb",
+                    "name": "tab63",
+                    "path": "/config/locales/pt-BR.yml",
                     "className": [
-                        "tab14"
+                        "tab63"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434132580806
+                            "timestamp": 1434137732459
                         },
                         "filter": true,
-                        "title": "routes.rb",
-                        "tooltip": "/config/routes.rb",
+                        "title": "pt-BR.yml",
+                        "tooltip": "/config/locales/pt-BR.yml",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -271,19 +268,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab15",
-                    "path": "/app/controllers/users_controller.rb",
+                    "name": "tab64",
+                    "path": "/config/locales/en.yml",
                     "className": [
-                        "tab15"
+                        "tab64"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434131655430
+                            "timestamp": 1434138041201
                         },
                         "filter": true,
-                        "title": "users_controller.rb",
-                        "tooltip": "/app/controllers/users_controller.rb",
+                        "title": "en.yml",
+                        "tooltip": "/config/locales/en.yml",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -291,20 +288,20 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab51",
-                    "path": "/app/mailers/signup_mailer.rb",
+                    "name": "tab65",
+                    "path": "/app/controllers/user_sessions_controller.rb",
                     "className": [
-                        "tab51",
+                        "tab65",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434128619571
+                            "timestamp": 1434137137329
                         },
                         "filter": true,
-                        "title": "signup_mailer.rb",
-                        "tooltip": "/app/mailers/signup_mailer.rb",
+                        "title": "user_sessions_controller.rb",
+                        "tooltip": "/app/controllers/user_sessions_controller.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -312,19 +309,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab52",
-                    "path": "/config/environments/development.rb",
+                    "name": "tab66",
+                    "path": "/app/models/user_session.rb",
                     "className": [
-                        "tab52"
+                        "tab66"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434131189736
+                            "timestamp": 1434138964463
                         },
                         "filter": true,
-                        "title": "development.rb",
-                        "tooltip": "/config/environments/development.rb",
+                        "title": "user_session.rb",
+                        "tooltip": "/app/models/user_session.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -332,15 +329,15 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab54",
+                    "name": "tab67",
                     "path": "/app/models/user.rb",
                     "className": [
-                        "tab54"
+                        "tab67"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434132486659
+                            "timestamp": 1434138900756
                         },
                         "filter": true,
                         "title": "user.rb",
@@ -352,19 +349,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab55",
-                    "path": "/app/controllers/confirmations_controller.rb",
+                    "name": "tab68",
+                    "path": "/app/controllers/users_controller.rb",
                     "className": [
-                        "tab55"
+                        "tab68"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434133188707
+                            "timestamp": 1434131656237
                         },
                         "filter": true,
-                        "title": "confirmations_controller.rb",
-                        "tooltip": "/app/controllers/confirmations_controller.rb",
+                        "title": "users_controller.rb",
+                        "tooltip": "/app/controllers/users_controller.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -378,7 +375,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/app/views/signup_mailer"
+            "/app/controllers/user_sessions_controller.rb"
         ]
     }
 }

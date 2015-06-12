@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: LOCALES do
     resources :users
     resource :confirmation, only: [:show]
+    resource :user_sessions, only: [:create, :new, :destroy]
   end
   
   get '/:locale' => 'users#index', locale: LOCALES

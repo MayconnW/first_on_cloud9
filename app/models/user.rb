@@ -26,6 +26,15 @@ class User < ActiveRecord::Base
     confirmed_at.present?
   end
   
+  scope :confirmed, -> { where.not(confirmed_at: nil)}
+    
+  def self.authenticate(email, password)
+    #user = 
+    confirmed.
+      find_by(email: email).
+      try(:authenticate, password)
+  end
+  
   #has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "120x90>" }
   
   #validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/

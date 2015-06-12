@@ -11,6 +11,10 @@ en:
           without go out home.
       confirm_link_html: 'For you begin to use the site, access the link %{link} and confirm your email' 
       thanks_html: 'Thank you for signup the %{link}.'
+  user_sessions:
+    new:
+      title: 'Sing in'
+      sign_up: 'Sign up'
   users:
     new:
       title: Sign up
@@ -40,3 +44,22 @@ en:
         city: City
         state: State
         cellphone: Cellphone
+  activemodel:
+    attributes:
+      user_session:
+        email: Email
+        password: Password
+    errors:
+      messages:
+        invalid_login: 'Invalid user or password'
+  helpers:
+    submit:
+      user_session:
+        create: 'Sing in'
+  flash:
+    alert:
+      needs_login: "You must be logged in to continue"
+    notice:
+      signed_in: 'Logged in successfully!'
+      signed_out: 'Logged off successfully. See you soon!'
+      already_logged_in: "You are logged in."

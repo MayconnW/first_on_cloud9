@@ -16482,3 +16482,559 @@ ActionController::RoutingError (No route matches [GET] "/images/medium/missing.p
   Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
   Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 177.6.161.138 at 2015-06-12 18:42:42 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user_sessions/new" for 177.6.161.138 at 2015-06-12 19:56:23 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `require_no_authentication' for #<UserSessionsController:0x000000060c55c0>):
+  activesupport (4.2.1) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:145:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:145:in `block in halting_and_conditional'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.5ms)
+
+
+Started GET "/user_sessions" for 177.6.161.138 at 2015-06-12 19:56:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/user_sessions"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/user_sessions/new" for 177.6.161.138 at 2015-06-12 19:56:31 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `require_no_authentication' for #<UserSessionsController:0x007f7fa3874ae0>):
+  activesupport (4.2.1) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:145:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:145:in `block in halting_and_conditional'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:03:41 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 86ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 177.6.161.138 at 2015-06-12 20:03:42 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 177.6.161.138 at 2015-06-12 20:03:42 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/translation_missing.self-eaef7abf05933ba644dc969b0aad364b400a8388ba6988de3d46e79d5d7aeb43.css?body=1" for 177.6.161.138 at 2015-06-12 20:03:42 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 177.6.161.138 at 2015-06-12 20:03:42 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a5d5c83e595c0cc8e86588f0afc0f265166cb576725254f29db318f7c74247f5.css?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 177.6.161.138 at 2015-06-12 20:03:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:03:49 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bz1wkopcZYWDnvLHn0P/adPnBOes8+34lvFoVJ6O3EShxdlecbk1lWR+hMG35+uHphf8N+2UP6Yk/BDdk02kvA==", "user_session"=>{"email"=>"maycoi", "password"=>"[FILTERED]"}, "commit"=>"Entrar", "locale"=>"pt-BR"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE ("users"."confirmed_at" IS NOT NULL) AND "users"."email" = ? LIMIT 1  [["email", "maycoi"]]
+  Rendered user_sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 86ms (Views: 79.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:03:58 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A3f+h9QMohQ00vmj4t6D8Ep+GSII8PY3o2L4cRnn5Y+lj1dLL+nyBNMyj6XKepceP47h8kmXJGkRb4D4FCSddw==", "user_session"=>{"email"=>"mayconnw@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar", "locale"=>"pt-BR"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE ("users"."confirmed_at" IS NOT NULL) AND "users"."email" = ? LIMIT 1[0m  [["email", "mayconnw@gmail.com"]]
+  Rendered user_sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 95ms (Views: 93.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pt-BR/users/new" for 177.6.161.138 at 2015-06-12 20:04:03 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/_form.html.erb (3.8ms)
+  Rendered users/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 91ms (Views: 81.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/pt-BR/users" for 177.6.161.138 at 2015-06-12 20:04:18 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rIdIjeO3Ct5oRhpvlnwj6wxfVB/uxS5v5dEnQkq8/xgKf+FBGFJazo+mbGm+2DcFea+sz6+i/DFX3F/LR3+H4A==", "user"=>{"full_name"=>"banana", "email"=>"banana@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "address_line1"=>"", "address_line2"=>"", "number"=>"", "zipcode"=>"", "city"=>"", "state"=>"", "cellphone"=>""}, "commit"=>"Criar Usuário", "locale"=>"pt-BR"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'banana@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "full_name", "password_digest", "address_line1", "address_line2", "number", "zipcode", "city", "state", "cellphone", "created_at", "updated_at", "confirmation_token") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["email", "banana@gmail.com"], ["full_name", "banana"], ["password_digest", "$2a$10$VnyNThNQbAotd5K8Hrs0/eHV29Iog9RB0elIbsAUOipdd6.3HGGSy"], ["address_line1", ""], ["address_line2", ""], ["number", ""], ["zipcode", ""], ["city", ""], ["state", ""], ["cellphone", ""], ["created_at", "2015-06-12 20:04:18.297456"], ["updated_at", "2015-06-12 20:04:18.297456"], ["confirmation_token", "mDxNwBN3EGDRS65PW8dTGw"]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /var/www/html/first_on_cloud9/app/controllers/users_controller.rb:14)
+  Rendered signup_mailer/confirm_email.html.erb (0.4ms)
+  Rendered signup_mailer/confirm_email.text.erb (0.3ms)
+
+SignupMailer#confirm_email: processed outbound mail in 10.3ms
+
+Sent mail to banana@gmail.com (246.0ms)
+Date: Fri, 12 Jun 2015 20:04:18 +0000
+From: no-reply@minhaloja.com.br
+To: banana@gmail.com
+Message-ID: <557b3b424f3d0_1e0f3fbfd1ac61e426070@ip-172-31-44-156.mail>
+Subject: translation missing: pt-BR.signup.confirm_email.subject
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_557b3b424e389_1e0f3fbfd1ac61e4259b1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_557b3b424e389_1e0f3fbfd1ac61e4259b1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Seja bem vindo ao MinhaLoja!
+
+Seja bem vindo ao MinhaLoja, banana.
+O MinhaLoja =C3=A9 o lugar ideal para voc=C3=AA alugar aquele quarto
+sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+
+Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link: http://ajudemei=
+remboraprocanada.com.br:3000/confirmation?token=3DmDxNwBN3EGDRS65PW8dTGw
+
+Obrigado por se cadastrar no http://ajudemeiremboraprocanada.com.br:3000/=
+.=
+
+----==_mimepart_557b3b424e389_1e0f3fbfd1ac61e4259b1
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao MinhaLoja! </h1>
+<p>
+    Seja bem vindo ao MinhaLoja, banana.
+O MinhaLoja =C3=A9 o lugar ideal para voc=C3=AA alugar aquele quarto
+sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+
+</p>
+<p>
+    Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link: <a href=3D"=
+http://ajudemeiremboraprocanada.com.br:3000/confirmation?token=3DmDxNwBN3=
+EGDRS65PW8dTGw">http://ajudemeiremboraprocanada.com.br:3000/confirmation?=
+token=3DmDxNwBN3EGDRS65PW8dTGw</a>
+</p>
+<p>
+    Obrigado por se cadastrar no <a href=3D"http://ajudemeiremboraprocana=
+da.com.br:3000/">Minhaloja</a>.
+</p>=
+
+----==_mimepart_557b3b424e389_1e0f3fbfd1ac61e4259b1--
+
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/pt-BR/users/19
+Completed 302 Found in 347ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/pt-BR/users/19" for 177.6.161.138 at 2015-06-12 20:04:19 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"19"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 79.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:04:20 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/confirmation?token=mDxNwBN3EGDRS65PW8dTGw" for 177.6.161.138 at 2015-06-12 20:04:23 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ConfirmationsController#show as HTML
+  Parameters: {"token"=>"mDxNwBN3EGDRS65PW8dTGw"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = ? LIMIT 1[0m  [["confirmation_token", "mDxNwBN3EGDRS65PW8dTGw"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'banana@gmail.com' AND "users"."id" != 19) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "confirmed_at" = ?, "confirmation_token" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["confirmed_at", "2015-06-12 20:04:23.366159"], ["confirmation_token", ""], ["updated_at", "2015-06-12 20:04:23.368586"], ["id", 19]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/pt-BR/users/19
+Completed 302 Found in 16ms (ActiveRecord: 8.1ms)
+
+
+Started GET "/pt-BR/users/19" for 177.6.161.138 at 2015-06-12 20:04:24 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"19"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 86ms (Views: 84.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:04:25 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.6ms)
+
+
+Started GET "/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:05:03 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:05:10 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9VzOzmQJmDfJ5bXbog/rY77b/4Uzsx+AZsGS7KUz9PxLdr3wnV2cDjH4NFGLCtD+wuXLlWpHiCzln7Cv1e3Kw==", "user_session"=>{"email"=>"banana@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar", "locale"=>"pt-BR"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE ("users"."confirmed_at" IS NOT NULL) AND "users"."email" = ? LIMIT 1[0m  [["email", "banana@gmail.com"]]
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/?locale=pt-BR
+Completed 302 Found in 74ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/?locale=pt-BR" for 177.6.161.138 at 2015-06-12 20:05:11 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
