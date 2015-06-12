@@ -153,7 +153,7 @@
             "@ace": 2,
             "@acestatus": 1,
             "@divider": 7,
-            "@document": 74,
+            "@document": 78,
             "@form": 4,
             "@immediate": 1,
             "@menu": 7,
@@ -162,9 +162,9 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 74,
-            "@tab": 69,
-            "@undoManager": 74,
+            "@session": 78,
+            "@tab": 73,
+            "@undoManager": 78,
             "@welcome": 1
         }
     },
@@ -221,7 +221,8 @@
                 "/app/views/New Folder",
                 "/app/controllers/concerns",
                 "/config/locales",
-                "/app/models",
+                "/app/views",
+                "/app/views/layouts",
                 "/app/controllers"
             ]
         }
@@ -237,9 +238,13 @@
                     "tab65",
                     "tab68",
                     "tab66",
-                    "tab67",
+                    "tab71",
+                    "tab72",
+                    "tab70",
                     "tab64",
                     "tab63",
+                    "tab69",
+                    "tab67",
                     "tab57",
                     "tab11"
                 ]
@@ -256,7 +261,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434137732459
+                            "timestamp": 1434140593235
                         },
                         "filter": true,
                         "title": "pt-BR.yml",
@@ -276,7 +281,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434138041201
+                            "timestamp": 1434140631918
                         },
                         "filter": true,
                         "title": "en.yml",
@@ -297,7 +302,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434137137329
+                            "timestamp": 1434140810509
                         },
                         "filter": true,
                         "title": "user_sessions_controller.rb",
@@ -357,11 +362,91 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434131656237
+                            "timestamp": 1434140906360
                         },
                         "filter": true,
                         "title": "users_controller.rb",
                         "tooltip": "/app/controllers/users_controller.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab69",
+                    "path": "/app/controllers/application_controller.rb",
+                    "className": [
+                        "tab69"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434139886542
+                        },
+                        "filter": true,
+                        "title": "application_controller.rb",
+                        "tooltip": "/app/controllers/application_controller.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab70",
+                    "path": "/app/views/layouts/application.html.erb",
+                    "className": [
+                        "tab70"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434140668939
+                        },
+                        "filter": true,
+                        "title": "application.html.erb",
+                        "tooltip": "/app/views/layouts/application.html.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab71",
+                    "path": "/app/views/layouts/_user_navbar.html.erb",
+                    "className": [
+                        "tab71"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434140364531
+                        },
+                        "filter": true,
+                        "title": "_user_navbar.html.erb",
+                        "tooltip": "/app/views/layouts/_user_navbar.html.erb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab72",
+                    "path": "/app/views/layouts/_visitor_navbar.html.erb",
+                    "className": [
+                        "tab72"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434140377279
+                        },
+                        "filter": true,
+                        "title": "_visitor_navbar.html.erb",
+                        "tooltip": "/app/views/layouts/_visitor_navbar.html.erb",
                         "ace": {}
                     },
                     "editorType": "ace",

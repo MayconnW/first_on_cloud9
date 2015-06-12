@@ -25,6 +25,11 @@ pt-BR:
   links:
     back: Voltar
     edit: Editar
+  layout:
+    signup: Cadastro
+    signin: Login
+    my_profile: Meu perfil
+    signout: Logout
   general:
     form_error: Há erros no formulário, por favor verifique.
   activerecord:

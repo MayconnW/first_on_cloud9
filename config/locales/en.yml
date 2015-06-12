@@ -25,6 +25,11 @@ en:
   links:
     back: Come back
     edit: Edit
+  layout:
+    signup: SignUp
+    signin: Login
+    my_profile: My Profile
+    signout: Logout
   general:
     form_error: There are errors in the form, please check.
   activerecord:

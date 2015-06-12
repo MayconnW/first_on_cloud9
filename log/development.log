@@ -17038,3 +17038,856 @@ Processing by UsersController#index as HTML
   Parameters: {"locale"=>"pt-BR"}
   Rendered users/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 177.6.161.138 at 2015-06-12 20:19:44 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (16.1ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:19:52 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"a72a9W5D1JeWRDAKJewPzrHSqW4v4nEzciDPLVBFF4zNRTM5laaEh3GkRgwNSBsgxCJRvm6Fo23ALbekXYZvdA==", "locale"=>"pt-BR"}
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/?locale=pt-BR
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 177.6.161.138 at 2015-06-12 20:19:53 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.9ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/users/new" for 177.6.161.138 at 2015-06-12 20:19:59 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/_form.html.erb (4.9ms)
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.6ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:20:07 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.4ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/users/new" for 177.6.161.138 at 2015-06-12 20:20:10 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.3ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:20:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.2ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:20:47 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.3ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 177.6.161.138 at 2015-06-12 20:20:47 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 177.6.161.138 at 2015-06-12 20:20:47 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/translation_missing.self-eaef7abf05933ba644dc969b0aad364b400a8388ba6988de3d46e79d5d7aeb43.css?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a5d5c83e595c0cc8e86588f0afc0f265166cb576725254f29db318f7c74247f5.css?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 177.6.161.138 at 2015-06-12 20:20:48 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_visitor_navbar.html.erb (1.5ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/translation_missing.self-eaef7abf05933ba644dc969b0aad364b400a8388ba6988de3d46e79d5d7aeb43.css?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a5d5c83e595c0cc8e86588f0afc0f265166cb576725254f29db318f7c74247f5.css?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:27 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 177.6.161.138 at 2015-06-12 20:21:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:23:55 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 98ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/translation_missing.self-eaef7abf05933ba644dc969b0aad364b400a8388ba6988de3d46e79d5d7aeb43.css?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a5d5c83e595c0cc8e86588f0afc0f265166cb576725254f29db318f7c74247f5.css?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:56 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 177.6.161.138 at 2015-06-12 20:23:57 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:24:38 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k9Jve0ImxFkhiievXRN9ntv4s4NhquLuzKHePuCdwyU1Ksa3ucOUScZqUal1t2lwrghLUyDNMLB+rKa37V673Q==", "user_session"=>{"email"=>"banana@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar", "locale"=>"pt-BR"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE ("users"."confirmed_at" IS NOT NULL) AND "users"."email" = ? LIMIT 1[0m  [["email", "banana@gmail.com"]]
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/?locale=pt-BR
+Completed 302 Found in 89ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/?locale=pt-BR" for 177.6.161.138 at 2015-06-12 20:24:39 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (2.2ms)
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pt-BR/users/19" for 177.6.161.138 at 2015-06-12 20:24:42 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"19"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (2.1ms)
+Completed 200 OK in 96ms (Views: 94.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:24:43 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+
+
+Started DELETE "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:24:45 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"f6lrj2/N+2LXqjDnt8vkm2sg1ahpho2vPcVJBKgySz3ZUcJDlCircjBKRuGfb/B1HtAteCjhX/GPyDGNpfEzxQ==", "locale"=>"pt-BR"}
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/?locale=pt-BR
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 177.6.161.138 at 2015-06-12 20:24:45 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:33:09 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.5ms)
+Completed 200 OK in 85ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/user_sessions/new" for 177.6.161.138 at 2015-06-12 20:33:11 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#new as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered user_sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.3ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 177.6.161.138 at 2015-06-12 20:33:11 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 177.6.161.138 at 2015-06-12 20:33:11 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 177.6.161.138 at 2015-06-12 20:33:11 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/translation_missing.self-eaef7abf05933ba644dc969b0aad364b400a8388ba6988de3d46e79d5d7aeb43.css?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a5d5c83e595c0cc8e86588f0afc0f265166cb576725254f29db318f7c74247f5.css?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:12 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 177.6.161.138 at 2015-06-12 20:33:13 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:33:17 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ptv0l24M3PD9BhhmuIbxgMHSTXthtDxzMEFOhzkuDkCYI11blemM4BrmbmCQIuVutCK1qyDT7i2CTDYONO12uA==", "user_session"=>{"email"=>"banana@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Entrar", "locale"=>"pt-BR"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE ("users"."confirmed_at" IS NOT NULL) AND "users"."email" = ? LIMIT 1[0m  [["email", "banana@gmail.com"]]
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/?locale=pt-BR
+Completed 302 Found in 83ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/?locale=pt-BR" for 177.6.161.138 at 2015-06-12 20:33:18 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (2.7ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pt-BR/users/19" for 177.6.161.138 at 2015-06-12 20:33:21 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"19"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (1.7ms)
+Completed 200 OK in 80ms (Views: 78.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:33:22 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.1ms)
+
+
+Started GET "/pt-BR/users/19/edit" for 177.6.161.138 at 2015-06-12 20:33:28 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"19"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "19"]]
+  Rendered users/_form.html.erb (4.4ms)
+  Rendered users/edit.html.erb within layouts/application (6.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (1.6ms)
+Completed 200 OK in 101ms (Views: 98.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pt-BR/users/18/edit" for 177.6.161.138 at 2015-06-12 20:33:32 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"18"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 18]]
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/pt-BR/users/18
+Filter chain halted as :can_change rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/pt-BR/users/18" for 177.6.161.138 at 2015-06-12 20:33:33 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"18"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered layouts/_user_navbar.html.erb (1.6ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:33:35 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.6ms)
+
+
+Started DELETE "/pt-BR/user_sessions" for 177.6.161.138 at 2015-06-12 20:33:44 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EclCwOhxetUWU6n3w9P4iv9IC8wTYnABv5iLwxpI18G3MesME5QqxfGz3/Hrd+xkirjzHFIFol8NlfNKF4uvOQ==", "locale"=>"pt-BR"}
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/?locale=pt-BR
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 177.6.161.138 at 2015-06-12 20:33:45 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/19" for 177.6.161.138 at 2015-06-12 20:33:54 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.4ms)
+Completed 200 OK in 85ms (Views: 83.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:33:55 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.9ms)
+
+
+Started GET "/users/19/edit" for 177.6.161.138 at 2015-06-12 20:34:01 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"19"}
+Redirected to http://ajudemeiremboraprocanada.com.br:3000/pt-BR/users/19
+Filter chain halted as :can_change rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/users/19" for 177.6.161.138 at 2015-06-12 20:34:02 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"pt-BR", "id"=>"19"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_visitor_navbar.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/medium/missing.png" for 177.6.161.138 at 2015-06-12 20:34:03 +0000
+Cannot render console from 177.6.161.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /root/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.0ms)

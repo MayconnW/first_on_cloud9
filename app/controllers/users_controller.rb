@@ -1,5 +1,8 @@
 class UsersController < ApplicationController
 	
+	before_action :require_no_authentication, only: [:new, :create]
+  before_action :can_change, only: [:edit, :update]
+	
 	def show
 		@user = User.find(params[:id])
 	end
@@ -41,5 +44,15 @@ class UsersController < ApplicationController
 				permit(:email, :full_name, :password, :password_confirmation, :avatar, :address_line1,
 					 		 :address_line2, :number, :zipcode, :city, :state, :cellphone)
 	end
+	
+	def can_change
+	  unless user_signed_in? && current_user == user
+      redirect_to user_path(params[:id])
+	  end
+	end
+    
+  def user
+  	@user ||= User.find(params[:id])
+  end
 		
 end

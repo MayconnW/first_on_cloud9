@@ -21,6 +21,15 @@
 					<li><a href="contato.php">Contato</a></li>
 				</ul>
 			</div>
+			
+			<div id="header-wrap">
+	      <% if user_signed_in? %>
+	        <%= render 'layouts/user_navbar' %>
+	      <% else %>
+	        <%= render 'layouts/visitor_navbar' %>
+	      <% end %>
+		  </div>
+			
 		</div>
 	</div>
 	
