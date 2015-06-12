@@ -1,14 +1,14 @@
 {
     "console": {
         "@expanded": true,
-        "@height": 485,
+        "@height": 204,
         "@maximized": "false",
         "json()": {
             "meta": {
                 "accessList": [
                     "tab1",
+                    "tab21",
                     "tab2",
-                    "tab4",
                     "tab0"
                 ]
             },
@@ -28,13 +28,13 @@
                             "timestamp": 1433787382673
                         },
                         "filter": true,
-                        "title": "bash - \"ip-172-31-44-156\"",
-                        "tooltip": "bash - \"ip-172-31-44-156\"",
+                        "title": "ruby - \"ip-172-31-44-156\"",
+                        "tooltip": "ruby - \"ip-172-31-44-156\"",
                         "terminal": {
                             "id": "devel_554",
                             "cwd": "",
-                            "width": 900,
-                            "height": 459
+                            "width": 730,
+                            "height": 178
                         }
                     },
                     "editorType": "terminal",
@@ -94,33 +94,33 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab4",
+                    "name": "tab21",
                     "path": null,
                     "className": [
-                        "tab4",
+                        "tab21",
                         "running"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434044017558
+                            "timestamp": 1434108549876
                         },
                         "filter": true,
-                        "title": "app/controllers/users_controller.rb - Running",
-                        "tooltip": "app/controllers/users_controller.rb - Running",
+                        "title": "app/views/users/_form.html.erb - Running",
+                        "tooltip": "app/views/users/_form.html.erb - Running",
                         "output": {
-                            "id": "output591080",
+                            "id": "output541362",
                             "width": 0,
                             "height": 0,
                             "config": {
                                 "runner": "Ruby on Rails",
-                                "command": "app/controllers/users_controller.rb",
+                                "command": "app/views/users/_form.html.erb",
                                 "debug": true,
                                 "name": ""
                             },
                             "running": {
-                                "pid": 16083,
-                                "name": "output591080",
+                                "pid": 7693,
+                                "name": "output541362",
                                 "running": 2,
                                 "runner": [
                                     {
@@ -153,7 +153,7 @@
             "@ace": 2,
             "@acestatus": 1,
             "@divider": 7,
-            "@document": 17,
+            "@document": 63,
             "@form": 4,
             "@immediate": 1,
             "@menu": 7,
@@ -162,9 +162,9 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 17,
-            "@tab": 12,
-            "@undoManager": 17,
+            "@session": 63,
+            "@tab": 58,
+            "@undoManager": 63,
             "@welcome": 1
         }
     },
@@ -183,7 +183,7 @@
     "panecycle": {
         "json()": [
             "tab1",
-            "tab41"
+            "tab51"
         ]
     },
     "panels": {
@@ -211,21 +211,21 @@
         }
     },
     "projecttree": {
-        "@scrollpos": -10,
+        "@scrollpos": 50,
         "@showfs": true,
         "expanded": {
             "json()": [
                 "/",
                 "/app",
                 "/db/migrate",
-                "/app/views/layouts",
                 "/app/views",
-                "/config",
+                "/app/views/New Folder",
+                "/app/views/signup_mailer",
+                "/app/mailers",
+                "/app/views/users",
                 "/app/models",
-                "/db",
                 "/app/controllers",
-                "/app/helpers",
-                "/app/views/users"
+                "/config/locales"
             ]
         }
     },
@@ -234,153 +234,32 @@
     },
     "tabs": {
         "json()": {
-            "focus": "tab1",
+            "focus": "/app/mailers/signup_mailer.rb",
             "meta": {
                 "accessList": [
-                    "tab41",
-                    "tab7",
-                    "tab11",
-                    "tab8",
-                    "tab42",
-                    "tab9",
-                    "tab40",
-                    "tab5",
-                    "tab3"
+                    "tab51",
+                    "tab55",
+                    "tab57",
+                    "tab14",
+                    "tab54",
+                    "tab15",
+                    "tab52",
+                    "tab11"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab3",
-                    "path": "/app/views/layouts/application.html.erb",
-                    "className": [
-                        "tab3"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1433944300444
-                        },
-                        "filter": true,
-                        "title": "application.html.erb",
-                        "tooltip": "/app/views/layouts/application.html.erb",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab9",
-                    "path": "/app/views/users/new.html.erb",
-                    "className": [
-                        "tab9"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1434031994996
-                        },
-                        "filter": true,
-                        "title": "new.html.erb",
-                        "tooltip": "/app/views/users/new.html.erb",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab40",
-                    "path": "/app/views/users/edit.html.erb",
-                    "className": [
-                        "tab40"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1434032085836
-                        },
-                        "filter": true,
-                        "title": "edit.html.erb",
-                        "tooltip": "/app/views/users/edit.html.erb",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab41",
-                    "path": "/app/controllers/users_controller.rb",
-                    "className": [
-                        "tab41"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1434051035723
-                        },
-                        "filter": true,
-                        "title": "users_controller.rb",
-                        "tooltip": "/app/controllers/users_controller.rb",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": true
-                },
-                {
-                    "type": "tab",
-                    "name": "tab42",
-                    "path": "/app/views/users/_form.html.erb",
-                    "className": [
-                        "tab42"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1434047054405
-                        },
-                        "filter": true,
-                        "title": "_form.html.erb",
-                        "tooltip": "/app/views/users/_form.html.erb",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab5",
-                    "path": "/app/helpers/application_helper.rb",
-                    "className": [
-                        "tab5"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1434047095512
-                        },
-                        "filter": true,
-                        "title": "application_helper.rb",
-                        "tooltip": "/app/helpers/application_helper.rb",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab7",
+                    "name": "tab14",
                     "path": "/config/routes.rb",
                     "className": [
-                        "tab7"
+                        "tab14"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434050653545
+                            "timestamp": 1434132580806
                         },
                         "filter": true,
                         "title": "routes.rb",
@@ -392,19 +271,19 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab8",
-                    "path": "/app/views/users/index.html.erb",
+                    "name": "tab15",
+                    "path": "/app/controllers/users_controller.rb",
                     "className": [
-                        "tab8"
+                        "tab15"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434050565878
+                            "timestamp": 1434131655430
                         },
                         "filter": true,
-                        "title": "index.html.erb",
-                        "tooltip": "/app/views/users/index.html.erb",
+                        "title": "users_controller.rb",
+                        "tooltip": "/app/controllers/users_controller.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -412,19 +291,80 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab11",
-                    "path": "/app/models/user.rb",
+                    "name": "tab51",
+                    "path": "/app/mailers/signup_mailer.rb",
                     "className": [
-                        "tab11"
+                        "tab51",
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1434030319496
+                            "timestamp": 1434128619571
+                        },
+                        "filter": true,
+                        "title": "signup_mailer.rb",
+                        "tooltip": "/app/mailers/signup_mailer.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab52",
+                    "path": "/config/environments/development.rb",
+                    "className": [
+                        "tab52"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434131189736
+                        },
+                        "filter": true,
+                        "title": "development.rb",
+                        "tooltip": "/config/environments/development.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab54",
+                    "path": "/app/models/user.rb",
+                    "className": [
+                        "tab54"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434132486659
                         },
                         "filter": true,
                         "title": "user.rb",
                         "tooltip": "/app/models/user.rb",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab55",
+                    "path": "/app/controllers/confirmations_controller.rb",
+                    "className": [
+                        "tab55"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1434133188707
+                        },
+                        "filter": true,
+                        "title": "confirmations_controller.rb",
+                        "tooltip": "/app/controllers/confirmations_controller.rb",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -438,7 +378,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/config/routes.rb"
+            "/app/views/signup_mailer"
         ]
     }
 }

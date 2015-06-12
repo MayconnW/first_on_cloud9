@@ -1,8 +1,15 @@
 Rails.application.routes.draw do
   
-  #get 'user/new'
-
-  resources :users
+  LOCALES = /en|pt\-BR/
+  
+  scope "(:locale)", locale: LOCALES do
+    resources :users
+    resource :confirmation, only: [:show]
+  end
+  
+  get '/:locale' => 'users#index', locale: LOCALES
+  
+  root 'users#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
